@@ -5,13 +5,15 @@ export class Serie {
   seasons: number;
   description: string;
   cover: string;
+  webpage: string;
 
-  constructor(id: number, name: string, channel: string, seasons: number, description: string,  cover: string) {
+  constructor(id: number, name: string, channel: string, seasons: number, description: string,   webpage: string, cover: string) {
     this.id = id;
     this.name = name;
     this.channel = channel;
     this.seasons = seasons;
     this.description = description;
     this.cover = cover;
+    this.webpage = webpage;
   }
 }
