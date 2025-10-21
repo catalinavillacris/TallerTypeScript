@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listado de Series</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilo para que la tabla no ocupe todo el ancho en pantallas grandes */
+    .container {
+      max-width: 800px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <h2> Series de Televisión</h2>
+    <hr>
+    <table class="table table-striped table-hover">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Channel</th>
+          <th scope="col">Seasons</th>
+        </tr>
+      </thead>
+      <tbody id="series-tbody">
+        </tbody>
+    </table>
+    <p id="seasons-average"></p>
+  </div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
